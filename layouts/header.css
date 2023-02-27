@@ -1,0 +1,44 @@
+header{
+    background-color: rgb(199, 61, 30);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: center;
+    justify-content:center;
+
+}
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin: 0 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+nav a:hover{
+    color:chocolate;
+    background-color:burlywood;
+    border-radius: 5px;
+}
+nav a:active{
+    color: brown;
+}
