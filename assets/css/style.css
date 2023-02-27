@@ -1,0 +1,36 @@
+
+
+body {
+    background-color:rgb(205, 192, 174);
+    font-family: arial;
+}
+
+article {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+section{
+    margin: 5px;
+    padding: 10px;
+    border: 2px black solid;
+    text-align: justify;
+    box-shadow:  5px 5px black;
+    border-left: 10px solid red;
+    text-align: center;
+}
+
+#fel {
+    display: flex;
+    text-align: justify;
+}
+
+#kk {
+    text-align: center;
+;
+}
+
+#ooo {
+    text-align: center;
+}
