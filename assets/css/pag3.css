@@ -1,6 +1,8 @@
 body {
     background-color: rgb(205, 192, 174);
     text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
 #border {
@@ -61,7 +63,6 @@ p {
 }
 
 iframe {
-    margin: 0;
-    padding: 0;
+
     margin-bottom: -5px;
 }

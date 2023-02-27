@@ -1,5 +1,7 @@
 body {
     background-color:rgb(205 , 192, 174);
+    padding: 0;
+    margin: 0;
 }
 article {
     width: 50%;
@@ -23,10 +25,4 @@ height: 75px;
 background-color:rgba(40, 211, 40, 0.774);
 color: white;
 
-}
-
-iframe {
-    margin: 0;
-    padding: 0;
-    margin-bottom: -5px;
 }

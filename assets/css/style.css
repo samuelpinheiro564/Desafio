@@ -3,6 +3,8 @@
 body {
     background-color:rgb(205, 192, 174);
     font-family: arial;
+    margin: 0;
+    padding: 0;
 }
 
 article {
@@ -34,3 +36,10 @@ section{
 #ooo {
     text-align: center;
 }
+
+iframe {
+    margin-bottom: -5px;
+
+}
+
+
