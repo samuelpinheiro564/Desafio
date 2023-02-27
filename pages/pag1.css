@@ -1,6 +1,9 @@
 body {
     background-color:rgb(205, 192, 174);
     font-family: arial;
+    margin: 0;
+    padding: 0;
+    
 }
 
 article {
@@ -36,4 +39,5 @@ img {
 iframe {
     margin: 0;
     padding: 0;
+    margin-bottom: -5px;
 }
