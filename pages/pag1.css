@@ -33,3 +33,7 @@ img {
     width: 128px;
     height: 128px;
 }
+iframe {
+    margin: 0;
+    padding: 0;
+}
