@@ -42,3 +42,26 @@ nav a:hover{
 nav a:active{
     color: brown;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
+
+  .logo {
+    width: 100%;
+    height: 100%;
+    animation-duration: 2s;
+    animation-name: myframes;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes myframes {
+        to {
+            transform: rotate(360deg);
+        }
+    }

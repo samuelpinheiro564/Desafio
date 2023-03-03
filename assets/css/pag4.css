@@ -4,23 +4,23 @@ body {
     margin: 0;
 }
 article {
-    width: 50%;
+   
     margin:auto;
-    font-family: 'Courier New';
+    font-family: 'arial';
     text-align: center;
 }
 #botão {
     background-color:rgba(247, 176, 43, 0.868);
-    width:150px;
+    width: 150px;
     height: 50px;
     border-radius: 5px;
- font-family: 'Franklin Gothic Medium';
+ font-family: 'arial';
  font-size: 20px;
- margin: 10px;
+ margin: 0px;
 }
 #botão:hover{
 font-size:25px;
-width:170px;
+width:190px;
 height: 75px;
 background-color:rgba(40, 211, 40, 0.774);
 color: white;
@@ -28,5 +28,5 @@ color: white;
 }
 
 #um {
-    padding: 50px;
+    padding: 0px;
 }
