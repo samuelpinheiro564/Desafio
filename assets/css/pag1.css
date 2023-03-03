@@ -20,6 +20,7 @@ section{
     text-align: justify;
     box-shadow:  2px 2px black;
     border-left: 10px solid red;
+    border-radius: 15px;
 }
 
 #res {
@@ -47,6 +48,13 @@ main {
     padding: 10px;
     border: 2px black solid;
     text-align: justify;
-    box-shadow:  2px 2px black;
     border-left: 10px solid red;
+    border-radius: 15px;
+    
+}
+#card {
+    background-color: rgb(205, 192, 174);
+}
+#card:hover {
+    transform: scale(1.2);
 }
