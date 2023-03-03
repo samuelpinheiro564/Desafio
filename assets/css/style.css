@@ -46,3 +46,9 @@ iframe {
 #imgg {
     margin-right: 18px;
 }
+
+.loi:hover {
+
+    transform: scale(1.05);
+
+}
