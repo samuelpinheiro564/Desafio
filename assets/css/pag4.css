@@ -16,13 +16,17 @@ article {
     border-radius: 5px;
  font-family: 'Franklin Gothic Medium';
  font-size: 20px;
- margin: 50px;
+ margin: 10px;
 }
 #botão:hover{
 font-size:25px;
-width:175px;
+width:170px;
 height: 75px;
 background-color:rgba(40, 211, 40, 0.774);
 color: white;
 
+}
+
+#um {
+    padding: 50px;
 }
