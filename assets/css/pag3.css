@@ -25,6 +25,11 @@ body {
     width: 51%;
     background-color: rgb(238, 71, 33);
     padding: 5px
+
+}
+
+#enviar:hover {
+    transform: scale(1.1);
 }
 
 form {
