@@ -16,6 +16,7 @@ body{
     margin:0 auto;
     align-items: center;
     justify-content:center;
+    transform: rotate(360);
 
 }
 nav ul{
