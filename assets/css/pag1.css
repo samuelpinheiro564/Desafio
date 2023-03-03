@@ -63,7 +63,12 @@ main {
     
 }
 #banner {
-    width: 80%;
-    height: 250px;
+    text-align: center;
+width: 1470px;
+height: 500px;
+}
+
+#img {
+    text-align: center;
 }
 
