@@ -16,11 +16,12 @@ article {
 section{
     margin: 5px;
     padding: 10px;
-    border: 2px black solid;
     text-align: justify;
+    border: 2px black solid;
     box-shadow:  2px 2px black;
     border-left: 10px solid red;
     border-radius: 15px;
+    width: 33%;
 }
 
 #res {
@@ -29,6 +30,7 @@ section{
 }
 #arc1 {
     display: flex;
+    width: 100%;
 }
 #sla {
     text-align: center;
@@ -54,7 +56,14 @@ main {
 }
 #card {
     background-color: rgb(205, 192, 174);
+    justify-content: center;
 }
 #card:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
+    
 }
+#banner {
+    width: 80%;
+    height: 250px;
+}
+
