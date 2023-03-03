@@ -1,7 +1,5 @@
-
-
 body {
-    background-color:rgb(205, 192, 174);
+    background-color: rgb(205, 192, 174);
     font-family: arial;
     margin: 0;
     padding: 0;
@@ -13,14 +11,16 @@ article {
     padding: 10px;
 }
 
-section{
+section {
     margin: 5px;
     padding: 10px;
-    border: 2px black solid;
     text-align: justify;
-    box-shadow:  5px 5px black;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: 10px solid red;
     text-align: center;
+    border-radius: 10px;
 }
 
 #fel {
@@ -30,7 +30,7 @@ section{
 
 #kk {
     text-align: center;
-;
+    ;
 }
 
 #ooo {
@@ -41,5 +41,3 @@ iframe {
     margin-bottom: -5px;
 
 }
-
-
