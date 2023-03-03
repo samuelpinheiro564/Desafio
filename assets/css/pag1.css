@@ -19,6 +19,7 @@ section{
     border: 2px black solid;
     text-align: justify;
     border-left: 10px solid red;
+    border-radius: 15px;
 }
 
 #res {
@@ -40,15 +41,19 @@ iframe {
     padding: 0;
     margin-bottom: -5px;
 }
-#imgs:hover {
-    transform: scale(0.3);
-}
 
 main {
     margin: 5px;
     padding: 10px;
     border: 2px black solid;
     text-align: justify;
-    box-shadow:  2px 2px black;
     border-left: 10px solid red;
+    border-radius: 15px;
+    
+}
+#card {
+    background-color: rgb(205, 192, 174);
+}
+#card:hover {
+    transform: scale(1.2);
 }
