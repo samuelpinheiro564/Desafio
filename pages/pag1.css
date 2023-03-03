@@ -11,6 +11,7 @@ article {
     margin: 5px;
     padding: 10px;
     text-align: center;
+
 }
 
 section{
@@ -20,7 +21,6 @@ section{
     text-align: justify;
     box-shadow:  2px 2px black;
     border-left: 10px solid red;
-    border-radius: 15px;
 }
 
 #res {
@@ -30,6 +30,7 @@ section{
 #arc1 {
     display: flex;
 }
+
 #sla {
     text-align: center;
 }
@@ -41,20 +42,4 @@ iframe {
     margin: 0;
     padding: 0;
     margin-bottom: -5px;
-}
-
-main {
-    margin: 5px;
-    padding: 10px;
-    border: 2px black solid;
-    text-align: justify;
-    border-left: 10px solid red;
-    border-radius: 15px;
-    
-}
-#card {
-    background-color: rgb(205, 192, 174);
-}
-#card:hover {
-    transform: scale(1.2);
 }
