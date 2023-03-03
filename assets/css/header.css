@@ -55,13 +55,9 @@ nav a:active{
   .logo {
     width: 100%;
     height: 100%;
-    animation-duration: 2s;
-    animation-name: myframes;
-    animation-timing-function: ease-in-out;
-  }
+    animation: mymove 5s infinite;
+}
 
-  @keyframes myframes {
-        to {
-            transform: rotate(360deg);
-        }
-    }
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
