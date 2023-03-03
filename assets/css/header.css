@@ -60,6 +60,8 @@ nav a:active{
     animation-timing-function: ease-in-out;
   }
 
-  @keyframes  {
-      transform: rotate(360deg);
+  @keyframes myframes {
+        to {
+            transform: rotate(360deg);
+        }
     }
