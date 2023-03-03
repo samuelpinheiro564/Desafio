@@ -78,9 +78,10 @@ main {
 
 #banner {
     text-align: center;
-    width: 1470px;
+    padding: 10px;
+    margin: 5px;
+    width: 97.5%;
     height: 500px;
-    margin-left: 27px;
 }
 
 #img {
