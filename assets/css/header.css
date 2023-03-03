@@ -52,12 +52,17 @@ nav a:active{
     border: 1px solid black;
   }
 
-  .logo {
+  .logo:hover {
     width: 100%;
     height: 100%;
     animation: mymove 5s infinite;
+    
 }
 
 @keyframes mymove {
-  50% {transform: rotate(180deg);}
+  
+}
+#img1:hover {
+    transform: rotate(350deg);
+    animation:alternate;
 }
