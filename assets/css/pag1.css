@@ -1,9 +1,9 @@
 body {
-    background-color:rgb(205, 192, 174);
+    background-color: rgb(205, 192, 174);
     font-family: arial;
     margin: 0;
     padding: 0;
-    
+
 }
 
 article {
@@ -13,12 +13,16 @@ article {
     text-align: center;
 }
 
-section{
+section {
     margin: 5px;
     padding: 10px;
     text-align: justify;
-    border: 2px black solid;
-    box-shadow:  2px 2px black;
+    border-radius: 15px;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-radius: 15px;
+
     border-left: 10px solid red;
     border-radius: 15px;
     width: 33%;
@@ -28,17 +32,21 @@ section{
     padding: 10px;
     margin: 5px;
 }
+
 #arc1 {
     display: flex;
     width: 100%;
 }
+
 #sla {
     text-align: center;
 }
+
 img {
     width: 128px;
     height: 128px;
 }
+
 iframe {
     margin: 0;
     padding: 0;
@@ -48,27 +56,33 @@ iframe {
 main {
     margin: 5px;
     padding: 10px;
-    border: 2px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-radius: 15px;
     text-align: justify;
     border-left: 10px solid red;
     border-radius: 15px;
-    
+
 }
+
 #card {
     background-color: rgb(205, 192, 174);
     justify-content: center;
 }
+
 #card:hover {
     transform: scale(1.05);
-    
+
 }
+
 #banner {
     text-align: center;
-width: 1470px;
-height: 500px;
+    width: 1470px;
+    height: 500px;
+    margin-left: 27px;
 }
 
 #img {
     text-align: center;
 }
-
