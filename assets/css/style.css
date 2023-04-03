@@ -5,13 +5,13 @@ body {
     padding: 0;
 }
 
-article {
+.sla{
     display: flex;
     margin: 5px;
     padding: 10px;
 }
 
-section {
+.loi{
     margin: 5px;
     padding: 10px;
     text-align: justify;
@@ -21,6 +21,17 @@ section {
     -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-radius: 15px;
+}
+
+@media (max-width:600px) {
+    .sla {
+        display: inline;
+    }
+}
+
+
+section {
+
 }
 
 #fel {
