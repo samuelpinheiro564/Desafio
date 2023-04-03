@@ -5,8 +5,9 @@ body {
     padding: 0;
 }
 
-article {
+.pai {
     display: flex;
+    flex-direction: row;
     margin: 5px;
     padding: 10px;
 }
@@ -24,7 +25,7 @@ section {
 }
 
 #fel {
-    display: flex;
+
     text-align: justify;
 }
 
@@ -50,5 +51,10 @@ iframe {
 .loi:hover {
 
     transform: scale(1.05);
-
+}
+@media (max-width: 650px) {
+   .pai{
+        display: flex;
+        flex-direction: column;
+    }
 }
